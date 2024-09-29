@@ -1,0 +1,45 @@
+body {
+  background-color: #eee;
+}
+
+#container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  aspect-ratio: 16/9;
+  background-color: #fff;
+  outline: 2px dashed black;
+}
+
+#box {
+  position: absolute;
+  top: 83%;
+  left: 45%;
+  background-color: pink;
+  width: 10%;
+  aspect-ratio: 1/1;
+}
+
+/* ------------- Animationer ------------- */
+
+.jump{
+  animation-name: jump_ani;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+
+@keyframes jump_ani {
+  0% {
+    translate: 70% 0;
+  }
+  50% {
+    translate: 50% -250%;
+    rotate: 180deg;
+  }
+  100% { 
+    translate: -30% 0;
+    rotate: 360deg;
+
+  }
+}

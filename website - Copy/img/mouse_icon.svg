@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 365.26 293.37">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        stroke-width: 8px;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        stroke-width: 7px;
+      }
+
+      .cls-4 {
+        stroke-width: 9px;
+      }
+    </style>
+  </defs>
+  <ellipse class="cls-2" cx="182.48" cy="133.1" rx="96.17" ry="76.95"/>
+  <ellipse class="cls-3" cx="182.48" cy="133.1" rx="63.66" ry="49.97"/>
+  <ellipse class="cls-4" cx="182.48" cy="133.1" rx="22.4" ry="17.99"/>
+  <rect class="cls-1" x="174.01" y="11.58" width="16.94" height="83.71" rx="4.16" ry="4.16"/>
+  <rect class="cls-1" x="170.64" y="167.96" width="16.94" height="84.2" rx="4.16" ry="4.16"/>
+  <rect class="cls-1" x="270.91" y="90.41" width="15.49" height="92.07" rx="4.21" ry="4.21" transform="translate(415.1 -142.2) rotate(90)"/>
+  <rect class="cls-1" x="78.57" y="90.41" width="15.49" height="92.07" rx="4.21" ry="4.21" transform="translate(222.76 50.14) rotate(90)"/>
+</svg>

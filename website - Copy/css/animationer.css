@@ -1,0 +1,180 @@
+.pause{
+  animation-play-state: paused !important;
+}
+
+.speed1{
+  animation-duration: 1.2s;
+}
+
+.speed2{
+  animation-duration: 1.2s;
+}
+
+.speed3{
+  animation-duration: 1s;
+}
+
+.speed4{
+  animation-duration: 1s;
+}
+
+.hop{
+  animation-name: hop;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  opacity: 0;
+}
+
+
+@keyframes hop {
+
+    0% {
+      translate: 0 10%;
+      scale: 10%;
+      opacity: 1;
+    }
+
+    25%{
+      translate: 0 10%;
+      scale: 100%;
+      opacity: 1;
+    }
+
+
+
+    50%{
+      translate: 0 -50%;
+      scale: 100%;
+      opacity: 1;
+    }
+
+    75%{
+      translate: 0 10%;
+      scale: 100%;
+      opacity: 1;  
+    }
+
+    100% {
+      translate: 0 10%;
+      scale: 0%;
+      opacity: 1;
+    }
+  
+}
+
+
+.run {
+    animation: run;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    z-index: 1;
+  }
+  
+  @keyframes run {
+    from {
+        transform: translate(500%, 230%);
+   
+      }
+    to {
+        transform: translate(-700%, 230%);
+    }
+}
+.gone {
+    animation: forsvind 1s ;
+  }
+  
+  .gone2{
+    animation: forsvind2 1.3s;
+    
+  }
+ 
+@keyframes forsvind {
+    from {
+        opacity: 1;
+        transform: rotate(0deg) scale(1);
+    }
+    to {
+        opacity: 0;
+        transform: rotate(720deg) scale(0);
+    }
+}
+
+@keyframes forsvind2 {
+  from {
+    transform:scale(0);}
+to {
+  transform: scale(0);
+}
+}
+
+
+
+    
+  .shrink {
+    animation-name: shrink_kf;
+    animation-duration: 40s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes shrink_kf {
+    0% {
+      scale: 1 1;
+      background-color: limegreen;
+    }
+
+    50% {
+        background-color: rgb(255, 230, 0);
+        transform: rotate();
+    }
+    
+    100% {
+      scale: 1 0;
+      background-color: rgb(205, 63, 50);
+
+
+    }
+  }
+.moveUpDown{
+    animation-name: moveUpDown;
+    animation-duration: 1.2s;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+}
+
+  @keyframes moveUpDown {
+    0% {
+        translate: 0 10%;
+    }
+
+
+    50%{
+        translate: 0 -3%;
+     
+    }
+
+
+    100% {
+        translate: 0 10%;
+    }
+    
+  }
+
+  .shake {
+    animation-name: shake;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-delay: 22.5s; /* Delay to start the shake animation at 50% of shrink */
+  }
+  
+  @keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(5px); }
+    50% { transform: translateX(-5px); }
+    75% { transform: translateX(5px); }
+    100% { transform: translateX(0); }
+  }

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 408.65 404.13">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e8731a;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #d8661a;
+      }
+
+      .cls-5 {
+        fill: #f47a16;
+      }
+    </style>
+  </defs>
+  <g>
+    <path class="cls-4" d="m231.32,298.23c15.49,18.03,49.46,12.14,75.88-13.14,17.73-16.97,27.55-38.36,27.41-56.05-.07-8.67-2.53-16.44-7.62-22.37-7.11-8.28-18.12-11.51-30.51-10.14-14.59,1.61-31.08,9.61-45.37,23.28-26.42,25.28-35.28,60.39-19.79,78.42Z"/>
+    <polygon class="cls-4" points="348.79 189.16 291.31 198.88 332.62 239.84 348.79 189.16"/>
+  </g>
+  <polygon class="cls-1" points="278.62 333.13 111.74 337.8 56.64 339.35 149.56 117.75 278.62 333.13"/>
+  <polygon class="cls-3" points="90.69 336.74 149.55 172.11 247.82 332.76 90.69 336.74"/>
+  <g>
+    <polygon class="cls-5" points="70.43 188.18 215.69 191.42 130.21 74.26 70.43 188.18"/>
+    <polygon class="cls-2" points="192.5 190.89 201.74 171.95 215.69 191.42 192.5 190.89"/>
+    <ellipse class="cls-2" cx="122.85" cy="164.07" rx="4.47" ry="10.73" transform="translate(-80.42 190.38) rotate(-60.55)"/>
+    <ellipse class="cls-2" cx="138.27" cy="132.95" rx="4.47" ry="10.73" transform="translate(-45.48 187.99) rotate(-60.55)"/>
+  </g>
+  <ellipse class="cls-1" cx="62.32" cy="324.13" rx="24.96" ry="14.37" transform="translate(-77.59 25.18) rotate(-14.2)"/>
+  <ellipse class="cls-1" cx="270.01" cy="318.88" rx="14.01" ry="25.58" transform="translate(-60.32 574.75) rotate(-87.51)"/>
+  <polygon class="cls-5" points="113.92 110.95 86.62 64.78 130.11 76.56 113.92 110.95"/>
+  <polygon class="cls-5" points="88.47 157.22 48.53 149.74 71.47 186.55 88.47 157.22"/>
+  <polygon class="cls-3" points="73.06 178.25 81.23 164.08 56.9 156.16 73.06 178.25"/>
+  <polyline class="cls-3" points="95.89 73.05 112.05 95.13 120.22 80.97"/>
+  <polygon class="cls-3" points="299.26 196.3 295.35 212.52 308.33 207.1 305.66 221.71 322.78 218.58 321.82 232.03 336.35 228.14 348.79 189.16 299.26 196.3"/>
+</svg>

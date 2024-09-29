@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_6" data-name="Layer 6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 365.26 309.54">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fffefd;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #f4bf16;
+      }
+
+      .cls-3 {
+        fill: #d8a31e;
+      }
+    </style>
+  </defs>
+  <ellipse class="cls-3" cx="185.76" cy="154.77" rx="62.34" ry="56.85"/>
+  <ellipse class="cls-2" cx="185.68" cy="151.01" rx="62.42" ry="53.09"/>
+  <polygon class="cls-1" points="156.34 146.69 156.8 183.78 175.69 183.78 175.69 162.43 195.15 162.41 195.15 183.78 215.18 183.78 215.18 146.69 185.76 118.24 156.34 146.69"/>
+</svg>

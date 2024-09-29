@@ -1,0 +1,39 @@
+body {
+  background-color: #eee;
+}
+
+#container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  aspect-ratio: 16/9;
+  background-color: #fff;
+  outline: 2px dashed black;
+}
+
+#box {
+  position: absolute;
+  top: 40%;
+  background-color: rgb(186, 145, 248);
+  width: 10%;
+  aspect-ratio: 1/1;
+}
+
+/* ------------- Animationer ------------- */
+
+.flying{
+  animation-name: flying_side;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes flying_side{
+  from {
+    translate: 0 0;
+  }
+  to {
+    translate: 1000% 0;
+  }
+}

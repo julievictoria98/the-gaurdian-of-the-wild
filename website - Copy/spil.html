@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/spil.css">
+    <link rel="stylesheet" href="css/animationer.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="spil.html"><strong>Mit spil</strong></a></li>
+                <li><a href="grafik.html">Grafik</a></li>
+                <li><a href="teknik.html">Teknik</a></li>
+                <li><a href="assets.html">Assets</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="screen">
+            <div id="game">
+                <div id="game_elements">
+                    <div id="game_background"></div>
+                    <div id="fox_container">
+                        <div id="fox_sprite"></div>
+                    </div>
+                    <div id="bunny_container">
+                        <div id="bunny_sprite"></div>
+                    </div>
+                    <div id="hunter2_container">
+                        <div id="hunter2_sprite"></div>
+                    </div>
+                    <div id="hunter_container">
+                        <div id="hunter_sprite"></div>
+                    </div>
+                    <div id="middel_ground" class="middle_ground"></div>
+                </div>
+                <div id="game_ui">
+                    <div id="timer_container">
+                        <div id="timer_sprite"></div>
+                    </div>
+                    <div id="score_board">
+                        <div id="my_points"></div> 
+                     </div>
+                     <div id="energy_board">
+                        <div id="my_lives"></div> 
+                     </div>
+                </div>
+            </div>
+            <audio src="../website/sounds/titlescreen_music.mp3" id="game_sound"></audio>
+            <div id="start">
+                <div id="play_btn"></div>
+            </div>
+            <div id="infoScreen">
+                <div id="play_btn_info"></div>
+            </div>
+            <div id="game_over">
+                <div class="playagain_btn" id="playagain_gameover_btn"></div>
+                <div class="startscreen_btn"></div>
+            </div>
+            <div id="game_complete">
+                <div class="startscreen_btn"></div>
+                <div class="playagain_btn" id="playagain_complete_btn"></div>
+            </div>
+        </div> 
+    </main>
+    <audio src="../website/sounds/click_sound.mp3" id="click_sound" ></audio>
+    <audio src="../website/sounds/lose_sound.mp3" id="lose_sound"></audio>
+    <audio src="../website/sounds/win_sound.mp3" id="win_sound"></audio>
+    <audio src="../website/sounds/shoot_sound.mp3" id="shoot_sound"></audio>
+
+
+    <footer></footer>
+    <script src="js/spil.js"></script>
+</body>
+</html>

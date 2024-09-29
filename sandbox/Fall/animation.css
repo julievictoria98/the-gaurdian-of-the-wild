@@ -1,0 +1,38 @@
+body {
+  background-color: #eee;
+}
+
+#container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  aspect-ratio: 16/9;
+  background-color: #fff;
+  outline: 2px dashed black;
+}
+
+#box {
+  position: absolute;
+  left: 45%;
+  background-color: orangered;
+  width: 10%;
+  aspect-ratio: 1/1;
+}
+
+/* ------------- Animationer ------------- */
+
+.fall{
+  animation-name: fall_down;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+
+@keyframes fall_down{
+  from {
+    translate: 0 0;
+  }
+  to {
+    translate: 0 460%
+  }
+}

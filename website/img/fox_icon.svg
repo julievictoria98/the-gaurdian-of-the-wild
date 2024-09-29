@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_4" data-name="Layer 4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 889 713">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e8731a;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-6 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-4 {
+        fill: #d8661a;
+      }
+
+      .cls-5 {
+        fill: #f47a16;
+      }
+    </style>
+  </defs>
+  <g>
+    <g>
+      <path class="cls-4" d="m567.11,597.97c40.07,45.17,127.95,30.43,196.3-32.93,45.87-42.52,71.28-96.13,70.92-140.44-.18-21.71-6.54-41.19-19.72-56.05-18.4-20.74-46.89-28.85-78.93-25.42-37.73,4.04-80.41,24.08-117.36,58.34-68.34,63.35-91.26,151.32-51.2,196.49Z"/>
+      <polygon class="cls-4" points="871 324.66 722.29 349.01 829.15 451.64 871 324.66"/>
+    </g>
+    <polygon class="cls-1" points="689.48 685.4 257.75 697.12 115.23 700.99 355.6 145.72 689.48 685.4"/>
+    <polygon class="cls-3" points="203.31 694.45 355.57 281.94 609.79 684.49 203.31 694.45"/>
+    <g>
+      <polygon class="cls-5" points="150.9 322.2 526.67 330.32 305.53 36.76 150.9 322.2"/>
+      <polygon class="cls-2" points="466.67 328.99 490.59 281.53 526.67 330.32 466.67 328.99"/>
+      <ellipse class="cls-2" cx="286.49" cy="261.79" rx="11.29" ry="27.55" transform="translate(-79.96 389.56) rotate(-61.64)"/>
+      <ellipse class="cls-2" cx="326.4" cy="183.81" rx="11.29" ry="27.55" transform="translate(9.62 383.74) rotate(-61.64)"/>
+    </g>
+    <ellipse class="cls-1" cx="129.91" cy="662.87" rx="64.45" ry="36.06" transform="translate(-149.78 48.02) rotate(-13.37)"/>
+    <ellipse class="cls-1" cx="667.2" cy="649.7" rx="35.12" ry="66.18" transform="translate(-9.36 1289.65) rotate(-87.65)"/>
+    <polygon class="cls-5" points="263.41 128.68 192.77 13 305.27 42.51 263.41 128.68"/>
+    <polygon class="cls-5" points="197.56 244.64 94.25 225.87 153.59 318.12 197.56 244.64"/>
+    <polygon class="cls-3" points="157.69 297.31 178.82 261.82 115.89 241.98 157.69 297.31"/>
+    <polyline class="cls-3" points="216.76 33.72 258.57 89.05 279.7 53.56"/>
+    <polygon class="cls-3" points="742.86 342.56 732.74 383.19 766.32 369.61 759.43 406.22 803.72 398.38 801.23 432.09 838.81 422.35 871 324.66 742.86 342.56"/>
+  </g>
+  <line class="cls-6" x1="316.19" y1="137.16" x2="280" y2="169"/>
+  <line class="cls-6" x1="234.1" y1="278.67" x2="240.7" y2="228.68"/>
+</svg>
